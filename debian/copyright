@@ -1,13 +1,13 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: adaptation-miatoll
-Source: https://gitlab.com/miatoll-linux/droidian/adaptation-miatoll
+Upstream-Name: adaptation-xiaomi-miatoll
+Source: https://github.com/droidian-devices/adaptation-droidian-miatoll
 
 Files: *
-Copyright: 2021 Marcel Alexandru Nitan <nitan.marcel@protonmail.com>
+Copyright: 2023 Bardia Moshiri <fakeshell@bardia.tech>
 License: BSD-3-clause
 
 Files: debian/*
-Copyright: 2021 Marcel Alexandru Nitan <nitan.marcel@protonmail.com>
+Copyright: 2023 Bardia Moshiri <fakeshell@bardia.tech>
 License: BSD-3-clause
 
 License: BSD-3-clause

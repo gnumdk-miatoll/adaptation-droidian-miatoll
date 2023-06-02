@@ -1,13 +1,13 @@
-Source: adaptation-miatoll
-Maintainer: Marcel Alexandru Nitan
+Source: adaptation-xiaomi-miatoll
+Maintainer: Bardia Moshiri
 Section: metapackages
 Priority: optional
 Build-Depends: debhelper (>= 10)
 Standards-Version: 4.5.0.3
-Vcs-Browser: https://gitlab.com/miatoll-linux/droidian/adaptation-miatoll
-Vcs-Git: https://gitlab.com/miatoll-linux/droidian/adaptation-miatoll.git
+Vcs-Browser: https://github.com/droidian-devices/adaptation-droidian-miatoll
+Vcs-Git: https://github.com/droidian-devices/adaptation-droidian-miatoll.git
 
-Package: adaptation-miatoll
+Package: adaptation-xiaomi-miatoll
 Architecture: arm64
 Depends: ${misc:Depends},
          lxc-android (>= 1:9),
@@ -16,7 +16,7 @@ Depends: ${misc:Depends},
          adaptation-hybris-api29-phone,
          adaptation-miatoll-configs,
          callaudiod
-Description: adapatation-miatoll- meta
+Description: adapatation-xiaomi-miatoll- meta
  Miatoll api29 adaptation metapackage
 
 Package: adaptation-miatoll-configs

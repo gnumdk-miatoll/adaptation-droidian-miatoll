@@ -2,5 +2,4 @@
 /etc/apt/preferences.d
 /etc/udev/rules.d
 /etc/package-sideload-create.d
-/usr/lib/adaptation-miatoll/sources
 /usr/share/keyrings
