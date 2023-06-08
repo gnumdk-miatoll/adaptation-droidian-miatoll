@@ -15,7 +15,8 @@ Depends: ${misc:Depends},
          linux-bootimage-xiaomi-miatoll,
          adaptation-hybris-api29-phone,
          adaptation-miatoll-configs,
-         callaudiod
+         callaudiod,
+         batman
 Description: adapatation-xiaomi-miatoll- meta
  Miatoll api29 adaptation metapackage
 
