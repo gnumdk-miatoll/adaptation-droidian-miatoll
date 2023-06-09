@@ -8,17 +8,16 @@ Vcs-Browser: https://github.com/droidian-devices/adaptation-droidian-miatoll
 Vcs-Git: https://github.com/droidian-devices/adaptation-droidian-miatoll.git
 
 Package: adaptation-xiaomi-miatoll
-Architecture: arm64
+Architecture: all
 Depends: ${misc:Depends},
          linux-bootimage-xiaomi-miatoll,
          adaptation-hybris-api29-phone,
          adaptation-miatoll-configs,
-         libqt5core5a,
          batman
 Description: adapatation-xiaomi-miatoll- meta
  Miatoll api29 adaptation metapackage
 
 Package: adaptation-miatoll-configs
-Architecture: arm64
+Architecture: all
 Depends: ${misc:Depends},
 Description: Miatoll's specific adaptation configs
