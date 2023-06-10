@@ -2,6 +2,9 @@
 /etc/phosh
 /etc/udev/rules.d
 /usr/bin
+/usr/share/applications
+/usr/share/icons
+/usr/share/sounds/camera/click
 /usr/lib/droid-vendor-overlay/etc
 /usr/lib/systemd/user
 /opt/droidatoll-sysfs-torch
