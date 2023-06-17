@@ -13,7 +13,6 @@ Depends: ${misc:Depends},
          linux-bootimage-xiaomi-miatoll,
          adaptation-hybris-api29-phone,
          adaptation-miatoll-configs,
-         batman,
          qt5-cameraplugin-aal,
          qtmultimedia5-examples
 Description: adapatation-xiaomi-miatoll- meta
