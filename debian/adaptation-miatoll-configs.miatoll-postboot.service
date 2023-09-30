@@ -1,5 +1,5 @@
 [Unit]
-Description=Enable wlan at boot
+Description=Hacks that have to be applied on boot for miatoll
 Requires=lxc@android.service
 
 [Service]
@@ -7,6 +7,7 @@ Type=oneshot
 Environment=LAUNCHED_BY_SYSTEMD=1
 ExecStartPre=/bin/sleep 5
 ExecStart=/usr/bin/miatoll-postboot.sh
+ExecStartPost=/usr/bin/camera-hal-force
 
 [Install]
 WantedBy=multi-user.target
