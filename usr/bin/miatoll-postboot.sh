@@ -14,8 +14,8 @@ echo ON > /dev/wlan
 echo 0 > /sys/module/lowmemorykiller/parameters/enable_adaptive_lmk
 echo 0 > /sys/module/lowmemorykiller/parameters/enable_lmk
 
-# Set swappiness value to 90
-echo 90 > /proc/sys/vm/swappiness
+# Set swappiness value to 90. => handled by power_saver kernel module
+# echo 90 > /proc/sys/vm/swappiness
 
 # Enable DT2W
 [ -z $TOUCHPANEL_DOUBLE_TAP ] && TOUCHPANEL_DOUBLE_TAP=1
