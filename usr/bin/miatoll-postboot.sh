@@ -20,3 +20,12 @@ echo 0 > /sys/module/lowmemorykiller/parameters/enable_lmk
 # Enable DT2W
 [ -z $TOUCHPANEL_DOUBLE_TAP ] && TOUCHPANEL_DOUBLE_TAP=1
 echo  $TOUCHPANEL_DOUBLE_TAP > /sys/touchpanel/double_tap
+
+# Set pulseaudio default settings to prevent crackling (see /etc/security/limits.d/pulse.conf)
+sed -i '
+s/.*realtime-priority.*/realtime-priority = 99/g
+s/.*realtime-scheduling.*/realtime-scheduling = yes/g
+s/.*nice-level.*/nice-level = -20/g
+s/.*high-priority.*/high-priority = yes/g
+s/.*avoid-resampling.*/avoid-resampling = true/g
+' /etc/pulse/daemon.conf
