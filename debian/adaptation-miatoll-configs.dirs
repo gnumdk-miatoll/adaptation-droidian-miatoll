@@ -1,7 +1,9 @@
+/etc/environment.d
 /etc/systemd/system/phosh.service.d
 /etc/phosh
 /etc/udev/rules.d
 /usr/bin
 /usr/share/glib-2.0/schemas
+/usr/share/feedbackd/themes/
 /usr/lib/droid-vendor-overlay/etc
 /usr/lib/systemd/user
