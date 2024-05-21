@@ -23,9 +23,9 @@ echo  $TOUCHPANEL_DOUBLE_TAP > /sys/touchpanel/double_tap
 
 # Set pulseaudio default settings to prevent crackling (see /etc/security/limits.d/pulse.conf)
 sed -i '
-s/.*realtime-priority.*/realtime-priority = 99/g
+s/.*realtime-priority.*/realtime-priority = 5/g
 s/.*realtime-scheduling.*/realtime-scheduling = yes/g
-s/.*nice-level.*/nice-level = -20/g
-s/.*high-priority.*/high-priority = yes/g
+s/.*nice-level.*/;nice-level = -11/g
+s/.*high-priority.*/;high-priority = yes/g
 s/.*avoid-resampling.*/avoid-resampling = true/g
 ' /etc/pulse/daemon.conf
