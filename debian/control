@@ -14,7 +14,7 @@ Depends: ${misc:Depends},
          adaptation-hybris-api29-phone,
          adaptation-miatoll-configs,
          ofono-binder-plugin,
-         ofono-configs-binder-single-sim-sim2,
+         ofono-configs-binder-common,
          droidian-camera,
          gstreamer1.0-tools,
          mobile-power-saver
