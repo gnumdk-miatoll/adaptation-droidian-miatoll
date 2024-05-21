@@ -13,8 +13,11 @@ Depends: ${misc:Depends},
          linux-bootimage-xiaomi-miatoll,
          adaptation-hybris-api29-phone,
          adaptation-miatoll-configs,
+         ofono-binder-plugin,
+         ofono-configs-binder-single-sim-sim2,
          droidian-camera,
          gstreamer1.0-tools,
+         mobile-power-saver
 Description: adapatation-xiaomi-miatoll- meta
  Miatoll api29 adaptation metapackage
 
