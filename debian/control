@@ -17,7 +17,8 @@ Depends: ${misc:Depends},
          ofono-configs-binder-common,
          droidian-camera,
          gstreamer1.0-tools,
-         mobile-power-saver
+         mobile-power-saver,
+         battery-input-manager
 Description: adapatation-xiaomi-miatoll- meta
  Miatoll api29 adaptation metapackage
 
