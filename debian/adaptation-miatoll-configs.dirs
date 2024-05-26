@@ -7,3 +7,4 @@
 /usr/share/feedbackd/themes/
 /usr/lib/droid-vendor-overlay/etc
 /usr/lib/systemd/user
+/var/lib/droidian/phosh-notch

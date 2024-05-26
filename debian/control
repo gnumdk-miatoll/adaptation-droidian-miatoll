@@ -1,5 +1,5 @@
 Source: adaptation-xiaomi-miatoll
-Maintainer: Bardia Moshiri
+Maintainer: Cedric Bellegarde
 Section: metapackages
 Priority: optional
 Build-Depends: debhelper (>= 10)
@@ -15,7 +15,6 @@ Depends: ${misc:Depends},
          adaptation-miatoll-configs,
          ofono-binder-plugin,
          ofono-configs-binder-common,
-#ofono-configs-binder-dual-sim,
          droidian-camera,
          gstreamer1.0-tools,
          mobile-power-saver,
@@ -26,4 +25,7 @@ Description: adapatation-xiaomi-miatoll- meta
 Package: adaptation-miatoll-configs
 Architecture: all
 Depends: ${misc:Depends},
+Provides: getcutout, getoverlay
+Replaces: getcutout, getoverlay
+Conflicts: getcutout, getoverlay
 Description: Miatoll's specific adaptation configs
