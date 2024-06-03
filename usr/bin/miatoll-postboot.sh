@@ -29,3 +29,6 @@ s/.*nice-level.*/;nice-level = -11/g
 s/.*high-priority.*/;high-priority = yes/g
 s/.*avoid-resampling.*/avoid-resampling = true/g
 ' /etc/pulse/daemon.conf
+
+# Remove me later
+rm -f /etc/systemd/system/NetworkManager.service
