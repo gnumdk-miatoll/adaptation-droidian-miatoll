@@ -19,6 +19,7 @@ Depends: ${misc:Depends},
          gstreamer1.0-tools,
          mobile-power-saver,
          fpd-unlock,
+         miatoll-quirks,
          miatoll-settings,
          battery-input-manager
 Description: adapatation-xiaomi-miatoll- meta

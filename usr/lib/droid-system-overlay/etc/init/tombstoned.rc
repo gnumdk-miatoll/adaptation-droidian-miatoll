@@ -1,0 +1,4 @@
+service tombstoned /system/bin/tombstoned_DISABLED
+     disabled
+     oneshot
+     override

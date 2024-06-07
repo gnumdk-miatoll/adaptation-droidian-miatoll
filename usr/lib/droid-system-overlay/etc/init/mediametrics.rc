@@ -1,0 +1,4 @@
+service mediametrics /system/bin/mediametrics_DISABLED
+     disabled
+     oneshot
+     override
