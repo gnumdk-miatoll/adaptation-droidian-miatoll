@@ -20,7 +20,7 @@ Depends: ${misc:Depends},
          mobile-power-saver,
          fpd-unlock,
          miatoll-quirks,
-         miatoll-settings,
+         mobile-settings,
          battery-input-manager
 Description: adapatation-xiaomi-miatoll- meta
  Miatoll api29 adaptation metapackage
