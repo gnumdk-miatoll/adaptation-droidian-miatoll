@@ -2,8 +2,3 @@
 
 %:
 	dh $@
-
-override_dh_installsystemd:
-	dh_installsystemd -padaptation-miatoll-configs --name=enable-ipa enable-ipa.service --no-start
-	dh_installsystemd -padaptation-miatoll-configs --name=miatoll-preboot miatoll-preboot.service --no-start
-	dh_installsystemd -padaptation-miatoll-configs --name=miatoll-postboot miatoll-postboot.service --no-start
