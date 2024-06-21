@@ -1,5 +1,5 @@
 [Unit]
-Description=Hacks that have to be applied on boot for miatoll
+Description=Script run after boot process
 Requires=lxc@android.service
 
 [Service]

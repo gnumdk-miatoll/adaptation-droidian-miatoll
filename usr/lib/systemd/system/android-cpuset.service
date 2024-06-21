@@ -1,0 +1,9 @@
+[Unit]
+Description=Setup android cpuset
+
+[Service]
+Type=oneshot
+ExecStart=/usr/sbin/cpuset_init.sh
+
+[Install]
+WantedBy=sysinit.target

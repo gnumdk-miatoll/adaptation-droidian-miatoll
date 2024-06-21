@@ -1,11 +1,9 @@
 [Unit]
-Description=run droidian performance tweaks
-After=local-fs.target
-Before=lxc@android.service
+Description=Script run ealier in boot process
 
 [Service]
 Type=oneshot
 ExecStart=/usr/bin/miatoll-preboot.sh
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=sysinit.target
