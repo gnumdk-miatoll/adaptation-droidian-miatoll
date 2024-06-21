@@ -1,10 +1,11 @@
 [Unit]
 Description=run droidian performance tweaks
-After=systemd-udev-settle.service local-fs.target
+After=local-fs.target
+Before=lxc@android.service
 
 [Service]
 Type=oneshot
 ExecStart=/usr/bin/miatoll-preboot.sh
 
 [Install]
-RequiredBy=local-fs.target
+WantedBy=multi-user.target
