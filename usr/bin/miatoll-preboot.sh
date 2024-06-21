@@ -6,13 +6,11 @@ mount -t cgroup -o schedtune stune /sys/fs/cgroup/schedtune # needs schedtune in
 for i in background system-background
 do
     mkdir -p /dev/cpuset/$i
-    echo 0-3 > /dev/cpuset/$i/cpus
     echo 0   > /dev/cpuset/$i/mems
 done
 
 for i in top-app foreground camera-daemon
 do
     mkdir -p /dev/cpuset/$i
-    echo 0-7 > /dev/cpuset/$i/cpus
     echo 0   > /dev/cpuset/$i/mems
 done

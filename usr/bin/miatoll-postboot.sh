@@ -21,5 +21,12 @@ s/.*high-priority.*/;high-priority = yes/g
 s/.*avoid-resampling.*/avoid-resampling = true/g
 ' /etc/pulse/daemon.conf
 
-# Remove me later
-rm -f /etc/systemd/system/NetworkManager.service
+for i in background system-background
+do
+    echo 0-3 > /dev/cpuset/$i/cpus
+done
+
+for i in top-app foreground camera-daemon
+do
+    echo 0-7 > /dev/cpuset/$i/cpus
+done
