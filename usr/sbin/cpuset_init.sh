@@ -8,6 +8,7 @@ do
     mkdir -p /dev/cpuset/$i
     echo 0-7 > /dev/cpuset/$i/cpus
     echo 0 > /dev/cpuset/$i/mems
+    chgrp droidian /dev/cpuset/$i/tasks
 
     [[ ! -f /dev/shm/cpuset/$i/services ]] && continue
 
