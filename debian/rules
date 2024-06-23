@@ -8,3 +8,4 @@ override_dh_installsystemd:
 	dh_installsystemd -padaptation-miatoll-configs --name=miatoll-preboot miatoll-preboot.service --no-start
 	dh_installsystemd -padaptation-miatoll-configs --name=miatoll-postboot miatoll-postboot.service --no-start
 	dh_installsystemd -padaptation-miatoll-configs --name=android-cpuset android-cpuset.service --no-start
+	dh_installsystemduser -padaptation-miatoll-configs --name=miatoll-quirks miatoll-quirks.service

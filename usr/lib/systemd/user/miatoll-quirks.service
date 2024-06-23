@@ -1,0 +1,8 @@
+[Unit]
+Description=Miatoll quirks
+
+[Service]
+ExecStart=/usr/bin/miatoll-quirks.sh
+
+[Install]
+WantedBy=default.target
