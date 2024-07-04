@@ -1,3 +1,9 @@
 etc/* /etc
-usr/* /usr
+usr/bin /usr
+usr/lib/droid-vendor-overlay/overlay /usr/lib/droid-vendor-overlay
+usr/lib/droid-vendor-overlay/etc/audio_policy_configuration.xml usr/lib/droid-vendor-overlay/etc
+usr/lib/droidian /usr/lib
+usr/lib/systemd /usr/lib
+usr/sbin /usr
+usr/share /usr
 var/* /var

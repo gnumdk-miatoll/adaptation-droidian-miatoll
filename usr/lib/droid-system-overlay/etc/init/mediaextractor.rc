@@ -1,4 +1,0 @@
-service mediaextractor /system/bin/mediaextractor_DISABLED
-     disabled
-     oneshot
-     override

@@ -1,4 +1,0 @@
-service wifidisplayhalservice /vendor/bin/wifidisplayhalservice_DISABLED
-  class main
-  user system
-  group inet input audio media uhid

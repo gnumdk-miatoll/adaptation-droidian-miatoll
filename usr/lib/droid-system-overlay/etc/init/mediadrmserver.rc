@@ -1,4 +1,0 @@
-service mediadrm /system/bin/mediadrmserver_DISABLED
-     disabled
-     oneshot
-     override
